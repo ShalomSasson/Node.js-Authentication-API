@@ -24,7 +24,15 @@ Run mongoDB with docker:
 ```sh
 > docker-compose up
 ```
-## npm modules
+
+
+
+## Installation
+
+```bash
+npm install 
+```
+#### npm modules
 
 Attached is a list of node packages that we use in this project :
 - bcrypt
@@ -35,6 +43,21 @@ Attached is a list of node packages that we use in this project :
 - lodash
 - mongoose
 
+## How to use
+
+The following example use default with MongoDB on Docker.
+HTTP server listening on port `3000`.
+
+```bash
+$ npm start
+
+> nodejs_authentication_api@1.0.0 start .........
+> node index.js
+
+Listening on port 3000...
+Connected to MongoDB at ....... mongodb://Demo:Demo@localhost:27017/Auth?authSource=adminconst 
+
+```
 
 ## Postman
 
@@ -52,27 +75,7 @@ import  ***`  postman_collection.json  `*** file to postman , run the applicatio
 </p>
 
 
-## Installation
 
-```bash
-npm install 
-```
-
-## How to use
-
-The following example use default with MongoDB on Docker.
-HTTP server listening on port `3000`.
-
-```bash
-$ npm start
-
-> nodejs_authentication_api@1.0.0 start .........
-> node index.js
-
-Listening on port 3000...
-Connected to MongoDB at ....... mongodb://Demo:Demo@localhost:27017/Auth?authSource=adminconst 
-
-```
 
 
 ## Documentation
