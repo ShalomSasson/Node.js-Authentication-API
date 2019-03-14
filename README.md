@@ -9,7 +9,7 @@
     <img
       alt="Node.js"
       src="/images/vscode.png"
-      width="400"
+      width="300"
     />
   </a>
 </p>
@@ -46,7 +46,7 @@ import  ***`  postman_collection.json  `*** file to postman , run the applicatio
     <img
       alt="Node.js"
       src="/images/postman.png"
-      width="400"
+      width="800"
     />
   </a>
 </p>
