@@ -1,22 +1,18 @@
 
   
 # Node.js Authentication API
+**Node.js Authentication API**  is an code sample based Node.js solution that implement the next API functionally:
+ - **Registration Service** : register new user 
+ - **Login Service** : login user 
 <p align="center">
   <a href="https://nodejs.org/">
     <img
       alt="Node.js"
-      src="https://nodejs.org/static/images/logo-light.svg"
-      width="400"
+      src="/images/vscode.png"
+      width="200"
     />
   </a>
 </p>
-
-**Node.js Authentication API**  is an code sample based Node.js solution that implement the next API functionally:
- - **Registration Service** : register new user 
- - **Login Service** : login user 
-
-we use 
-
 
 
 ## MongoDB
@@ -49,22 +45,12 @@ import  ***`  postman_collection.json  `*** file to postman , run the applicatio
   <a href="https://nodejs.org/">
     <img
       alt="Node.js"
-      src="/images/vscode.png"
-      width="400"
+      src="/images/postman.png"
+      width="200"
     />
   </a>
 </p>
 
-Some implementations in other languages are also available:
-
-- [Java](https://github.com/socketio/socket.io-client-java)
-- [C++](https://github.com/socketio/socket.io-client-cpp)
-- [Swift](https://github.com/socketio/socket.io-client-swift)
-- [Dart](https://github.com/rikulo/socket.io-client-dart)
-
-Its main features are:
-
-#### Reliability
 
 ## Installation
 
@@ -77,7 +63,7 @@ npm install
 The following example use default with MongoDB on Docker.
 HTTP server listening on port `3000`.
 
-```js
+```bash
 $ npm start
 
 > nodejs_authentication_api@1.0.0 start .........
