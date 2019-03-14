@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  mongoservice:
+    image: mongo:3.6
+    volumes: 
+      - mongodata:/data/db
+    ports: 
+      - "27017:27017"     
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=Demo
+      - MONGO_INITDB_ROOT_PASSWORD=Demo
+volumes:
+  mongodata:
+  

@@ -1,0 +1,15 @@
+{
+    "db":"mongodb://Demo:Demo@localhost:27017/Auth?authSource=admin",
+    "password" : {
+        "saltRounds" : 10,
+        "complexityOptions" : {
+            "min": 6,
+            "max": 30,
+            "lowerCase": 0,
+            "upperCase": 0,
+            "numeric": 0,
+            "symbol": 0,
+            "requirementCount": 2
+          }
+    }
+}

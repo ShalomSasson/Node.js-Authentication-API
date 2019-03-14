@@ -1,0 +1,29 @@
+npm i express
+npm i mongoose
+
+// validate 
+npm i joi --save
+npm i joi-objectid --save
+npm install joi-password-complexity --save
+
+// Lodash - A modern JavaScript utility library delivering modularity, performance & extras.
+npm i lodash --save
+
+// Encrypt password
+npm i bcrypt --save
+
+// JWT Token
+npm i jsonwebtoken --save
+
+// config
+npm i config --save
+npm i express-async-errors --save
+
+// logging
+npm i winston --save
+npm i winston-mongodb --save
+
+// Unit Testing
+npm i jest --save
+npm i supertest --save
+
