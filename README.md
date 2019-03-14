@@ -5,7 +5,7 @@
  - **Registration Service** : register new user 
  - **Login Service** : login user 
 <p align="center">
-  <a href="https://nodejs.org/">
+  <a href="/images/vscode.png">
     <img
       alt="Node.js"
       src="/images/vscode.png"
@@ -42,7 +42,7 @@ here attached postman collection for testing the running services.
 import  ***`  postman_collection.json  `*** file to postman , run the application and test the services with attached services definition.
 
 <p align="center">
-  <a href="https://nodejs.org/">
+  <a href="/images/postman.png">
     <img
       alt="Node.js"
       src="/images/postman.png"
