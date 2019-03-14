@@ -1,0 +1,51 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Shalom Sasson - User Authentication API",
+		"_postman_id": "765c15fb-1778-6328-cd4d-60ceb2871765",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User Registration",
+			"request": {
+				"url": "http://localhost:3000/api/user",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"firstName\" : \"Shalom\",\n  \"lastName\" : \"Sasson\",\n  \"email\": \"Shalom_1@mydomain.com\",\n  \"password\":\"123456\"\n}"
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"url": "http://localhost:3000/api/user/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"Shalom_1@mydomain.com\",\n  \"password\":\"123456\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
