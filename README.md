@@ -46,7 +46,7 @@ import  ***`  postman_collection.json  `*** file to postman , run the applicatio
     <img
       alt="Node.js"
       src="/images/postman.png"
-      width="800"
+      width="900"
     />
   </a>
 </p>
