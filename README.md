@@ -84,5 +84,6 @@ Please see this README documentation [here](README.md). Contributions are welcom
 
 ## License
 
-GNU GENERAL PUBLIC LICENSE
+[GNU General Public License v3.0](https://github.com/ShalomSasson/Node.js-Authentication-API/blob/master/LICENSE)
+
 
