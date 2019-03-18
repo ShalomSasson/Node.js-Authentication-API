@@ -1,19 +1,27 @@
 
   
-# Node.js Authentication API
-**Node.js Authentication API**  is an code sample based Node.js solution that implement the next API functionally:
- - **Registration Service** : register new user 
- - **Login Service** : login user 
-<p align="center">
-  <a href="/images/vscode.png">
-    <img
-      alt="Node.js"
-      src="/images/vscode.png"
-      width="300"
-    />
-  </a>
-</p>
 
+  # Node.js Authentication API
+**Node.js Authentication API** is a sample project that implement authentication mechanism.<br/>
+in this code sample based **Node.js** solution we implement the next API functionally:
+ - **Registration Service** :  <br/>
+   register new user with basic input fields + password, the password saved encrypted in DB
+   ``` json
+   {
+       "firstName" : "Shalom",
+       "lastName" : "Sasson",
+       "email": "Shalom_1@mydomain.com",
+       "password":"123456"
+   }
+   ```
+ - **Login Service** :  <br/>
+    Login with Email\User Name + password and the service check if the user exist & if the password is match
+   ``` json
+   {
+       "email": "Shalom_1@mydomain.com",
+       "password":"123456"
+   }
+   ```
 
 ## MongoDB
 we use MongoDB for with this solution for storing data.
@@ -29,12 +37,14 @@ Run mongoDB with docker:
 
 ## Installation
 
+**'npm install'** will install all packages that related to this project.
+
 ```bash
 npm install 
 ```
 #### npm modules
 
-Attached is a list of node packages that we use in this project :
+Attached are list of all node packages that will be installed :
 - bcrypt
 - config
 - express
